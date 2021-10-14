@@ -1,4 +1,3 @@
-alert("Test from index.js");
 // Open/Close Hamburger when you click on the icon
 var navBackground = document.getElementsByClassName("navbar-menu")[0];
 var element = document.querySelector("label.checkbtn");
@@ -27,9 +26,7 @@ navElement.forEach(element => {
         navBackground.style.left = "-100%";
         if(label.classList.contains("close")){
             label.classList.remove("close");
-            document.querySelector("#icon").src = "images/icon-hamburger.svg";
-            
+            document.querySelector("#icon").src = "images/icon-hamburger.svg";   
         }
-
     });
 });
