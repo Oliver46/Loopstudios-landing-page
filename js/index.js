@@ -1,3 +1,4 @@
+alert("Test from index.js");
 // Open/Close Hamburger when you click on the icon
 var navBackground = document.getElementsByClassName("navbar-menu")[0];
 var element = document.querySelector("label.checkbtn");
